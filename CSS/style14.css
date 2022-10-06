@@ -1,0 +1,13 @@
+.container{
+    display: grid;
+    grid-template-columns: 200px 200px 200px; /*TO make the columns of x px*/
+    /*Fraction: xfr Gives the ratio of 3 box size*/ 
+    /* grid-template-columns:1fr 2fr 1fr ;
+       grid-template-columns: repeat(3,1fr); */
+
+}
+.items{
+    background-color: aliceblue;
+    border: 3px solid black;
+    border-radius: 3px;
+}

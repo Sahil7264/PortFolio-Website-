@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+    <link rel="stylesheet" href="style6.css">
+</head>
+
+<body >
+    <div class="container">
+    <form action="">
+    <!--Server Location inside Action-->
+    <h1>Payment Form</h1>
+    <hr>
+    <h2>User Information</h2>
+    <p>Required field (*)</p>
+    <p>First  Name : *<input type="text" name="Fname" placeholder="Enter Your First name" required</p>
+    <p> Middle Name : *<input type="text" name="Mname" placeholder="Enter Your Middle name" required> </p>
+    <p>Last Name : *<input type="text" name="Lname" placeholder="Enter Your Last name" required></p><!--Required fill then only pay now occur-->
+    <!--Input Text-->
+    <!-- name="name" = this is for infor goes to server -->
+    <p>
+    <fieldset>
+        <legend>Gender</legend>
+         <input type="radio" name="gender" id="Male" required>
+         <label for="Male">Male</label><br/>
+         <input type="radio" name="gender" id="Female" required>
+         <label for="Female">Female</label><br/>
+        
+    </fieldset>
+    </p>
+    <p>Address : <textarea name="address" placeholder="Enter Your address" id="address" cols="100" rows="6"></textarea> </p>
+    <p>Email : *<input type="email" name="email" placeholder="Enter Your email " id="email" required> </p>
+    <p>Pincode : *<input type="number" name="pincode" placeholder="Enter Your Pincode" id="pincode" required></p>
+
+    <h2>Payment Information</h2>
+    <p>Card Type : *<select name="card" id="card" required>
+        <option value="">Select the card type</option>
+        <!--Display in browser-->
+        <option value="visa">Visa</option>
+        <!--Goes to server    -->
+        <option value="Rupay">Rupay</option>
+        <!--Goes to server    -->
+        <option value="Credit">Credit</option>
+        <!--Goes to server    -->
+        <option value="Master">Master</option>
+        <!--Goes to server    -->
+    </select>
+    </p>
+    <p>Card Number: *<input type="text" placeholder="1234-1234-1234-1234" name="card_numbere" id="card_number" required></p>
+    <p>Expiration date : *<input type="date" name="Date" id="date" required></p>
+    <p>CVV : *<input type="password" placeholder="123" name="cvv" id="cvv" required></p>
+    <p><input type="submit" value="Pay Now"></p>
+</form>
+</div>
+
+</body>
+</html>

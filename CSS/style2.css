@@ -1,0 +1,41 @@
+p,a{
+    color: green;
+}
+li{
+    list-style-type: circle;
+}
+.special{
+    color: brown;
+}
+span.special,li.special{
+    color:crimson;
+    font-weight: bold;
+}
+li em{
+    color: purple;
+    font-weight: bold;
+}
+h4+p{
+    color: yellow;
+}
+h5+p{
+    color: yellow;
+}
+a:hover{
+    color: cornflowerblue;
+    text-decoration: none;
+}
+#heading{
+    color: aliceblue;
+ background-color: black;
+}
+p#secondId{
+    color:  royalblue;
+}
+li[class]{
+    color: blueviolet;
+}
+li[class="c"]{
+    color: rgb(121, 24, 35);
+}
+

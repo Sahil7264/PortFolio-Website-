@@ -1,0 +1,51 @@
+h2{
+    color: rgb(213, 39, 39);
+}
+p{
+    color: #8b6767;
+}
+.opacity{
+    color: #f0171788;
+}
+.rgb{
+    color: rgb(0, 255, 255);
+}
+#background2{
+    color: black;
+    background-color: rgb(154, 75, 75);
+}
+.par2{
+    background-color: #281f1f;
+}
+.opacity1{
+   background-color: #f0171788;
+}
+.rgb1{
+    background-color: rgb(0, 255, 255);
+}
+.image{
+    background-image: url(sahil.jpeg) ;
+    height: 400px;
+    background-size: 400px;
+    background-repeat: no-repeat;
+    background-attachment :scroll;
+    background-position:center;
+ }
+ .background4{
+    font-size: 45px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:bolder ;
+ }
+ #background5{
+    text-align: center;
+    text-decoration: underline;
+    text-transform: lowercase;
+    text-indent: 2cm;
+    word-spacing: 1cm;
+ }
+ .line{
+line-height: 1cm;
+ }
+ h1{
+    text-shadow: 2px 2px 2px red;
+ }

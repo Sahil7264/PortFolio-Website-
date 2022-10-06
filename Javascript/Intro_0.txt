@@ -1,0 +1,58 @@
+Javascript Programming language :
+Case Sensitive
+Dynamically Type language
+change datatype Automatically
+
+1.for single line statement no need to use :
+2.for multiline use  ;
+3.Comments : // , /* */
+4.javascript Syntax :
+5.Data Types :
+
+a.Primitive : 
+1. Boolean (True/False);
+2. undefined (declaring variable with no value);
+3. string  (Text value);
+4. Null (Variable Declare by null value only)(variable not exists);
+5 Number (int ,float ,hex ,exponential ,octal ,value ,infinite stored);
+
+b.User Defined Datatype :
+1. objects
+2. Functions
+
+6. Variables :
+Data Containers
+key words : let const var used for  create Variable
+
+Declaring Variables :
+let myName;
+let myAge;
+
+initializing variables:
+myName='Sahil';
+muAge=19;
+
+updating Variables:
+
+myName='Shile';
+myAge=20;
+
+Rules for variable Names:
+1. number only added in btw or end of variable Name
+2. $ is used _ is used Only
+3. _2 not valid
+4. a not valid
+5. All capital is invalid cz it is const
+6. keywords cant used as variable name ex : function,let;
+
+const : one time declaration (value cant be changed thouhout program)
+const prize=100;
+
+#Operaters :
+1.Binary Operaters:
+Syntax : operand1 operator operand2
+2.Unary Operaters :
+Syntax :operand operator || operator operand
+3.Assignment operator
+left operand oprator right operand
+

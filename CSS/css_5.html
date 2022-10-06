@@ -1,0 +1,79 @@
+<!-- Ul = unordered List  -->
+
+<!-- 1)Cascading-->
+<!--h1{color:red;}-->
+<!--h1{color:blue;}-->
+<!--h1{color:while;}-->
+<!--Last Command Executed Always ie Color become white -->
+
+<!-- 2)Specificity-->
+<!--Command having high specificity executes always-->
+<!--h1{}, ul#specific{} here h1,ul#specific are commands-->
+<!--To see specificty press ctrl + click on command-->
+<!---Note: Inline Css have highest Specifity -->
+
+<!-- 3)Inheritance-->
+<!-- <div><p></p></div> p inherite the value from parent i.e div-->
+<!-- How to control Inherit ??? -->
+<!-- i)Inherit  :  property Inherit (parent to child)                                                       -->
+<!-- ii)Initial :  property Initial (parent default value to child)                                         -->
+<!-- ii)Unset   :  property Unset   (reseting the value to either initial or inherit acc to property of css)-->
+
+<!--Important keywords: no specificity It definitely Executes -->
+<!---Highest specificity Always (greater than inline css)-->
+<!--h1{property : value !important; }-->
+
+<!--OVERFLOW-->
+<!--Content Overflowing From Box-->
+<!--How to manage overflow??? -->
+<!--overflow Property-->
+<!--default is visible-->
+<!--oveflow : visible outside box visble     -->
+<!--oveflow : hiddden outside box not visible-->
+<!--oveflow : scroll  scroll inside the box(scrollbar at the both time overflow or not overflow)  -->
+<!--oveflow : auto    scroll inside the box(scrollbar at the one time  when overflow is done   )  -->
+
+<!--Image Css styling-->
+<!--MOST IMP PROPERTIES FOR IMAGE STYLING-->
+<!--object-fit: Contain,fill,cover property-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cascading Specificity inheritance</title>
+    <link rel="stylesheet" href="style5.css">
+</head>
+<body>
+    <h2>Specificity</h2>
+    <ul id="specific">
+        <li>Sahil</li>
+        <li class="Sirname">Shile</li>
+        <li>Coolest</li>
+    </ul>
+
+    <ul id="Inheritance">
+        <li>Default   <a href="">Link</a> color</li>
+        <li class="one" >Inherited <a href="">Link</a> color</li>
+        <li class="two" >initial   <a href="">Link</a> color</li>
+        <li class="three" >Unset     <a href="">Link</a> color</li>
+    </ul>
+
+    <div class="text">
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur odit itaque non nostrum temporibus quisquam porro debitis quidem doloribus sequi velit magnam harum, recusandae odio. Laudantium rem expedita repellendus deserunt!
+    Earum laborum pariatur laboriosam, asperiores dolor expedita, ad tempora commodi necessitatibus fugit non debitis veritatis tempore nostrum reprehenderit error, corrupti totam nemo delectus deleniti libero sed! Natus ratione fuga molestias?
+    Deleniti quos quam iste ratione sequi earum voluptatem minima sapiente ea autem nisi esse culpa quis, tenetur laboriosam magnam, corrupti qui ducimus! At debitis quasi amet perspiciatis, eos consequatur molestiae.
+    Ipsa harum quia, ratione mollitia quas qui doloribus perferendis fugiat et beatae itaque! Doloremque nisi dolor blanditiis quasi, velit odio officia omnis iusto cum rem nostrum itaque dolore ea quas?
+    Et, molestiae earum, reprehenderit est blanditiis saepe voluptates labore numquam sint nemo veritatis facere perspiciatis distinctio. Eligendi eveniet nesciunt aliquid cumque suscipit mollitia ipsa dolore minus odit, repudiandae, officia est.
+    Cte maiores. Voluptatibus numquam ad rem quis dolorum, dicta qui repellendus asperiores sint quia voluptates officiis aspernatur dolor, itaque quam at.
+    </div>
+
+    <div class="image">
+        <div class="box"><img src="sahil.jpeg"></div>
+        <div class="box"><img src="res2.jpg"></div>
+     
+    </div>
+</body>
+</html>

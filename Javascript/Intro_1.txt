@@ -1,0 +1,44 @@
+Intro:
+use To make Elements Dynamic of Html and Css
+use Script tag to include Javascript in the Html Document
+
+How javascript Works :
+javascript made ne netscape -> Moxxilla
+
+Name of browser  Javascript Engine Name
+Mozilla          Spider Monkey
+Chrome           v8
+Edge             Chakra
+
+script tag : code kahise fetch hoke run hota hai
+script get loaded from network, cashe , Worker , passed to a byte steam decoder
+these byte SD decodes Byte into tokens . Tokens sent to parser
+Parser generates Nodes based on tokens ,  and creates Abstract Syntax tree
+these process called as Interpreter 
+javascript is Dynamically type k=language : that means data values Change Repetedly
+data type Change reatedly so it takes time
+to solve this error js used Optimized machine cope
+
+OMC :let any function return some data type then js assumes that function return same value as Previous
+
+# Document Object Model (DOM) :
+Document -> Root Elemet(html) -> Element(head)(child of html tag) ->Element(Title)(child of head tag)
+
+#Ways to addd Javascript in Web Pages :
+1)Js always add after rendering of the element 
+2)as html follows line by line Execution
+3)First  way Always Write js Below of the webpages
+4)Second way is that using DomContentLoaded
+5)Third  way use Attribute defer (script js loaded only when html css loaded)
+Use for External Javascript only
+Takes place as line by line Execution
+Takes Time
+when One js Tag executes others are blocked
+6)Fourth way using async Tag
+One time Execution
+All js Files loads when DOM loading as the same time
+All js Files Executes at One Time
+All unblocked at the same Time
+
+Async : use when  no scripts are blocked or all working independently & order not matters
+Defer : Dom Dependent (Tag dependend on some Tag for execution )

@@ -1,0 +1,13 @@
+img{
+    height: 400px;
+    width:400px;
+    
+}
+body{
+    text-align: center;
+    margin-top: 170px;
+    background-color: coral;
+}
+.clip-circle{
+    clip-path: circle(49.3% at 50% 50%);
+}

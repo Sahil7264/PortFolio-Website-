@@ -1,0 +1,46 @@
+ul#specific li.Sirname{
+    font-size: 30px;
+    color:red;
+    font-weight: bold;
+    list-style:lower-greek;
+    }
+h2{
+    color: aqua;
+    text-align: center;
+}
+ul#specific li{
+font-size: 30px;
+color:blue;
+}
+body{
+    color: blue;
+}
+.one{
+    color: inherit;
+}
+.two{
+    color: initial;
+}
+.three{
+    color: unset;
+}
+ .text{
+    height: 300px;
+    width: 400px;
+    border:2px solid black;
+    font-size: large;
+    overflow:scroll;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    border: 3px solid black;
+    margin: 5px;
+}
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    object-fit: cover;
+    object-fit: fill;
+}

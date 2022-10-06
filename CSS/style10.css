@@ -1,0 +1,26 @@
+.box-set,.box{
+    border-radius: 6px;
+}
+.box-set{
+    background-color: white;
+}
+
+/*Relative Position*/
+.box{
+    background-color: green;
+    height: 80-px;
+    width: 80px;
+    text-align: center;
+    margin: 20px;
+    position: relative;
+    top: 80px;
+}
+/*Absolute Position*/
+.box{
+    position: absolute;
+}
+/*Sticky*/
+/*FExed+Relative Mixture*/
+.box{
+    position: sticky;
+}

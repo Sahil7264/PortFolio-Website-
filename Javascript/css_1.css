@@ -1,0 +1,16 @@
+.one{
+    background-color: blue;
+    color: black;
+    text-align: center;
+    text-decoration: blueviolet;
+    height: 200px;
+    width: 200px;
+}
+.second{
+    background-color: rgb(255, 0, 38);
+    color: black;
+    text-align: center;
+    text-decoration: blueviolet;
+    height: 200px;
+    width: 200px;
+}

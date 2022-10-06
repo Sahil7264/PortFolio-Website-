@@ -1,0 +1,97 @@
+<!-- Selectors  in CSS-->
+<!-- selector {property:value; property:value;}-->
+<!-- h1 {color: red; fint-size:12px;}-->
+
+<!-- Types of Selectors-->
+
+<!-- 1)Combined Selectors-->
+<!--  h1,h2,h3,h4{property:value ; property:value}-->
+
+<!-- 2)Type Selectors-->
+<!--  h1/p{property : value;}-->
+
+<!--3) Class selectors-->
+<!--ex : <h1class="className">-->
+<!--ex : .className{property :value;}-->
+
+<!--4) ID Selectors-->
+<!--ex : <h1 id="idName">-->
+<!--ex : #idname {roperty :value;}-->
+
+<!--5) Attribue Selectors (To select attributes)-->
+<!--ex : <ankor Tag href="Link"> -->
+<!--ex : <a href="www.sahil.com"-->
+<!--ex : a[href="www.example"]{ property:value; } -->
+
+<!--6) psuedo Class  Selector (Used To style states of elements)-->
+<!-- Types of states :  :havor, :visited -->
+<!--ex : <element name(selector):pseudo-class{property : class}-->
+
+<!--7) psuedo Element Selector (Used To select Part of any Element)-->
+<!--ex : to select 1st line of  paragraph tag-->
+<!-- <p>1st line:Hello sahil,2nd Line: Hii sam </p>-->
+<!--ex : p::first-line{property:value;}-->
+
+<!--8) Combinator Selector (Used To select Tag inside any tag)-->
+<!--ex: <article> <h1>HII</h1> <p>Hello</p> <div> <p></p> </div> -->
+<!-- article>p{property : value;}-->
+
+<!--9) Universal Selectors (Used To select Tag inside any tag)-->
+<!-- *{property : value;}-->
+
+<!--To select selectors at a same time body h1+p .special {property:value}-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Types Of Slectors</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <h2> 1)Element Selector</h1>
+    <h2> Hello sahil</h2>
+
+    <p> This is Paragraph. It have a <span>Span Element</span> and also have a <a href="http:/example.com">link</a></p>
+    <p>This is Second paragraph<em>Emphasized</em>Element.</p>
+
+    <ul>
+        <li> Item one</li>
+        <li> Item two</li>
+        <li>Item <em>Three</em></li>
+    </ul>
+    <h2>2)Class selectors</h2>v
+    <ui>
+        <li class="special">  Item one</li>
+        <li class="special">  Item two</li>
+        <li>  Item <em>Three</em></li>
+    </ui>
+    <pi>To select particular class i.e span <span class="special">Span Element</span></pi>
+
+    <h4>1st line</h4>
+    <p>2st line</p>
+    <h5>3rd line</h4>
+    <span>Span Element</span>
+    <p>3st line</p>
+
+    <h2>3) Psuedo Class selectors</h2>
+    <p> This is  psuedo Paragraph. It have a <span>Span Element</span> and also have a <a href="http:/example2.com">link . Hover to see change</a></p>
+
+    <h2>4) Id selectors</h2>
+    <h2 id="heading"> hello Id Selectors</h2>
+    <p>Paragraph one</p>
+    <p id="secondId">Paragraph two</p>
+
+    <h2>5)Attribute selectors</h2>
+    <ul>
+        <li>Item 1</li>
+        <li class="a">Item 2</li>
+        <li class="b">Item 3</li>
+        <li class="c">Item 4</li>
+    </ul>
+
+    <h2>6)Universal Selector</h2>
+    <!--*{property : value}}-->
+</body2>
+</html>

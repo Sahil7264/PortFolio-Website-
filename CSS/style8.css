@@ -1,0 +1,28 @@
+html{
+    font-size: 1em;
+}
+
+@media screen and (max-width:600px){
+    body{
+        color: red;
+    }
+}
+@media (orientation:landscape){
+    body{
+        color:blue ;
+    }
+}
+/*For  Two commands( execute when either of these one is true*/
+/*And Operator*/
+@media screen and (max-width:600px),
+screen and (orientation:landscape){
+    body{
+        color: darkorange;
+    }
+}
+/*Or operator*/
+@media not all and (orientation:landscape){ /*Mhatlab Jab tak landscape hai tab tak apply mat karna*/
+    body{
+        color: aquamarine;
+    }
+}
