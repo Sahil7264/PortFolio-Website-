@@ -1,0 +1,9 @@
+Control Flow Statements
+
+If Else : Syntax
+if(condition ) {
+    console.log("Right")
+}
+else{
+    console.log("Wrong")
+}

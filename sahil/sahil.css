@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    background-color: aliceblue;
+}
+.body{
+    padding: 10px;
+    border: 5px solid rgb(155, 164, 26);; 
+    margin: 50px;
+    background-color: rgb(208, 188, 215);
+}
+img{
+    height: 250px;
+    width: 250px;
+    padding: 10px;
+    border: 2px solid rgb(155, 164, 26);
+}
+h1{
+    color: blueviolet;
+    border: 2px solid rgb(155, 164, 26);;
+    text-align: center;
+}

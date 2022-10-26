@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Control Flow Statements</title>
+</head>
+<body>
+    <h1>Welcome..!!!</h1>
+    <script>
+        /*IF ELSE STATEMENT*/
+        var time=prompt("What is the Time");
+        if(time>5 && time<12){
+            alert("Good Morning");
+        }
+        else if(time>12 && time<17 ){
+            alert("Good Afternoon")
+        }
+        else if(time>17 && time<21 ){
+            alert("Good Afternoon")
+        }
+        else{
+            alert("Good Night");
+        }
+        //If we press Cancel it goes to else block cz NUll , cancel implicit false;
+
+        //Switch Statements
+        var devices=prompt("Name The Device to turn On");
+        switch(devices){
+            case "Fan" :
+                console.log("Fan Turned ON");
+                break;
+            case "TV" :
+                console.log("TV Turned ON");
+                break;
+            case "Heater" :
+                console.log("Heater Turned ON");
+                break;
+            default :
+                console.log(`${devices} Invalid Input`);
+            }
+            console.log("Anything Remains");
+            //Goto Inspect then Console to see the output
+    </script>
+</body>
+</html>
