@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PortFolio</title>
+    <style>
+        body {
+            margin: 0px;
+            box-sizing: border-box;
+            background-color: white;
+        }
+
+        .logo {
+            height: 20px;
+            width: 20px;
+            border-radius: 15px;
+            float: left;
+            position: relative;
+            left: 20px;
+            top: 14px;
+        }
+
+        .header {
+            box-sizing: border-box;
+            position: relative;
+            left: 45px;
+            font-size: 26px;
+            top: -1x;
+            top: 10px;
+            text-shadow: 1px 0px red;
+            font-family: sans-serif;
+            font-weight: bolder;
+            text-decoration: none;
+            animation-name: logo;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+            animation-fill-mode: forwards;
+            transform: 3s;
+        }
+
+        @keyframes logo {
+            0% {
+                color: black;
+            }
+
+            50% {
+                color: black;
+            }
+
+            100% {
+                color: black;
+            }
+        }
+
+        .list {
+            position: absolute;
+            top: -15px;
+            right: 0px;
+            list-style: none;
+            color: white;
+            display: flex;
+            flex-direction: row;
+        }
+
+        .list li {
+            padding: 8px;
+            margin: 8px;
+            transition: 0.5s;
+        }
+
+        .list li:hover {
+            font-size: 18px;
+        }
+
+        .upper {
+            background-color: black;
+            height: 572px;
+            width: 100%;
+        }
+
+        .name {
+            font-size: 80px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            text-align: center;
+            padding: 20px;
+            text-shadow: 4px 4px rgb(73, 14, 14);
+            color: white;
+            transition: 1s;
+            cursor: progress;
+        }
+
+        .main2 {
+            margin-left: 100px;
+            margin-right: 100px;
+        }
+
+        .block1,
+        .block2 {
+            position: relative;
+            height: 10px;
+            background-color: aqua;
+            width: 54px;
+            top: 0px;
+            left: 0px;
+            animation-duration: 2s;
+            /* transition: 4px; */
+            animation-iteration-count: infinite;
+            border-radius: 10px;
+        }
+
+        .block1 {
+            animation-name: block1;
+        }
+
+        .block2 {
+            animation-name: block2;
+        }
+
+
+        @keyframes block1 {
+            0% {
+                top: 0px;
+                left: 0px;
+            }
+
+            50% {
+                top: 0px;
+                left: 1300px;
+            }
+
+            100% {
+                top: 0px;
+                left: 0px;
+            }
+        }
+
+        @keyframes block2 {
+            0% {
+                top: 0px;
+                left: 1300px;
+            }
+
+            50% {
+                top: 0px;
+                left: 0px;
+            }
+
+            100% {
+                top: 0px;
+                left: 1300px;
+            }
+        }
+
+        .main3 {
+            text-align: center;
+        }
+
+        .image {
+            text-align: center;
+            height: 200px;
+            width: 200px;
+            border-radius: 110px;
+            background-color: aliceblue;
+            border: 4px solid rgb(73, 14, 14);
+            transition: 0.3s;
+        }
+
+        .image:hover {
+            height: 210px;
+            width: 210px;
+            border-radius: 105px;
+        }
+
+        /* LOWER  */
+        .quote {
+            text-align: center;
+            font-size: 45px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: bolder;
+            text-decoration: none;
+        }
+        .login-page{
+            margin-left: 35%;
+            margin-right: 35%;
+        }
+        .log-image{
+            height: 60px;
+            width: 60px;
+            border-radius: 50px;
+        }
+        .field{
+            text-align: center;
+            background-color: aliceblue;
+            border-radius: 50px;
+        }
+        .one,.two,.three{
+            width: 70%;
+            margin-top: 10px;
+            padding: 10px;
+            border-radius: 30px;
+        }
+        .submit{
+            margin-top: 10px;
+            height: 25px;
+            width:80px;
+            border-radius: 30px;
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="upper">
+        <div class="main">
+            <div class="right-nav">
+                <img src="logo.png" alt="" class="logo">
+                <a href="https://www.google.com/" class="header">Google</a>
+            </div>
+            <div class="left-nav">
+                <ul class="list">
+                    <li class="item">About</li>
+                    <li class="item">Projects</li>
+                    <li class="item">Contact</li>
+                </ul>
+            </div><br><br><br><br><br><br><br>
+        </div>
+        <div class="main2">
+            <div class="block1"></div>
+            <h1 class="name">SAHIL SHILE</h1>
+            <div class="block2"></div>
+        </div>
+        <br><br>
+        <div class="main3">
+            <img src="imag2pnj.png" alt="" class="image">
+            <div class="line"></div>
+        </div>
+    </div>
+    <br><br>
+    <br><br><br><br><br><br><br>
+    <div class="quote">“Website without visitors is like a ship lost in the horizon.”</div>
+    <br><br><br><br><br><br><br>
+    <div class="login-page">
+         <form action="">
+            <fieldset class="field">
+                <legend>LOGIN PAGE </legend>
+                <h3>Walchand College of Engineering,Sangli</h3>
+                <img src="black.webp" alt="Loading" class="log-image">
+                <h3>Student Login</h3>
+                <input type="text" placeholder="Email Address" class="one"><br>
+                <input type="password" name="" id="" placeholder="PassWord" class="two"><br>
+                <input type="text" placeholder="Verification Code" class="three"><br>
+                <input type="submit" value="Login" class="submit">
+                <h5>Forgot password ?</h5>
+            </fieldset>
+         </form>
+    </div>
+</body>
+</html>
